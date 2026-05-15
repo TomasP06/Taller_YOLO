@@ -14,8 +14,10 @@ env/
 .venv/
 .env
 
-# Pesos y modelos grandes (subir por separado o Drive)
-models/*.pt
+# Pesos y modelos grandes
+# best.pt se sube para la entrega del taller
+models/house-yolo.pt
+!models/best.pt
 !models/.gitkeep
 
 # Directorio de run completo de Ultralytics (pesos intermedios, gráficas, etc.)
