@@ -1,0 +1,13 @@
+# data.yaml — Descriptor del dataset para YOLO
+# Taller: Detección de Casas en Imágenes Colombianas
+
+path: ./dataset          # Ruta raíz del dataset (relativa a donde ejecutes el script)
+train: images/train      # Imágenes de entrenamiento
+val:   images/val        # Imágenes de validación
+
+# Número de clases
+nc: 1
+
+# Nombres de clases
+names:
+  0: house

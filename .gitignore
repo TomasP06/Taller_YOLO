@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ultralytics cache
+*.cache
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env
+
+# Pesos y modelos grandes (subir por separado o Drive)
+models/*.pt
+!models/.gitkeep
+
+# Directorio de run completo de Ultralytics (pesos intermedios, gráficas, etc.)
+models/house-yolo/
+
+# Resultados de entrenamiento de Ultralytics
+runs/
+
+# Pesos base descargados automáticamente
+yolov8n.pt
+yolo26n.pt
+
+# Resultados de inferencia
+resultados/
+
+# Dataset de imágenes (pueden ser grandes; indicar origen en README)
+# Comentar las siguientes líneas si SÍ quieres subir las imágenes
+# dataset/images/
+
+# VS Code
+.vscode/
+
+# JupyterLab
+.ipynb_checkpoints/
+*.ipynb
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

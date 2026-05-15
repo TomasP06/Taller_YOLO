@@ -1,0 +1,3 @@
+# Este archivo mantiene la carpeta models/ en Git.
+# Los pesos (.pt) están excluidos en .gitignore porque pueden ser muy grandes.
+# Sube los pesos a Google Drive o compártelos por separado.

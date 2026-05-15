@@ -1,0 +1,14 @@
+path: d:/Taller_vision/casas.v1i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['casa']
+
+roboflow:
+  workspace: sebastians-workspace-sqqdc
+  project: casas-lszdo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sebastians-workspace-sqqdc/casas-lszdo/dataset/1
